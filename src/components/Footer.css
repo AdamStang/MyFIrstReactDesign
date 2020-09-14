@@ -1,0 +1,46 @@
+footer{
+    margin-top: 30px;
+    background-color: rgb(50, 50, 50);
+    color: white;
+}
+
+.upperFooter{
+    display: flex;
+}
+
+.upperFooter div, .upperFooter address{
+    flex: 1;
+    padding: 10px 120px;
+}
+
+.lowerFooter{
+    text-align: center;
+    padding: 10px;
+    border-top: 2px solid rgb(100, 100, 100);
+}
+
+.upperFooter h2{
+    position: relative;
+}
+
+.upperFooter h2::before{
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 30%;
+    width: 70%;
+    height: 3px;
+    background-color: rgb(100, 100, 100);
+}
+
+.upperFooter h2::after{
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 30%;
+    height: 3px;
+    background-color:  red;
+}

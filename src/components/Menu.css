@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navBar{
+    background-color: rgb(30, 30, 50);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    display: flex;
+    justify-content: space-around;
+}
+.navBar h2{
+    color: white;
+    line-height: 80px;
+    cursor: pointer;
+}
+.navBar ul{
+    height: 80px;
+    width: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.navBar li{
+    list-style: none;
+    width: 100px;
+    line-height: 50px;
+    text-align: center;
+}
+.navBar a:hover{
+    background-color:  rgba(0, 50, 255, 0.8);
+    color: white;
+}
+.navBar a{
+    text-decoration: none;
+    display: block;
+    color: rgb(200, 200, 200);
+    border-radius: 4px;
+    transition: 0.5s ease;
+}
